@@ -33,6 +33,12 @@
 .hero-heading{
     font-size: 80px;
 }
+@media (min-width: 0) and (max-width: 768px) {
+    #Home img{
+        width: 80%;
+        height: 300px;
+    }
+}
 /* gallery  */
 #gallery-btns{
     align-items: center;
