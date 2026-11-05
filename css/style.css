@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#diff{
+    color: #5BC0BE;
+}
+.cyan{
+    color: #5BC0BE;
+}
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* navbar  */
+#custom-link{
+    color: white;
+}
+#custom-link:hover{
+    color: #5BC0BE !important;
+}
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+/* home  */
+.hero-heading{
+    font-size: 80px;
+}
+/* gallery  */
+#gallery-btns{
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    transition: .3s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px #0002;
+}
